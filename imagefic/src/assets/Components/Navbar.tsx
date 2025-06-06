@@ -1,6 +1,7 @@
 import React from 'react'
 import Zhentryx from '../Zhentryx.png'
 import bgimage from '../bgimage.png'
+import Frame7 from '../Frame 761.png'
 
 const Navbar = () => {
   return (
@@ -31,6 +32,11 @@ const Navbar = () => {
                 <button className='text-white border-0 rounded w-40 h-12 bg-[#1B10A4] ' >
                     SIGN UP
                 </button>
+                </div>
+                <div>
+                    <img src={Frame7} alt="" style={{
+                        marginLeft:'500px', top:'-400px', position:'relative'
+                    }} />
                 </div>
             </div>
         </section>
