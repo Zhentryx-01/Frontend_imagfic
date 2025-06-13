@@ -1,7 +1,7 @@
 import React from 'react'
 import LandingPage from './LandingPage'
 
-const Layout = () => {
+const Layout: React.FC = () => {
   return (
     <div>
       <LandingPage />
