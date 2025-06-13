@@ -1,9 +1,9 @@
 import React from 'react'
-import Zhentryx from '../Zhentryx.png'
-import bgimage from '../bgimage.png'
-import Frame7 from '../Frame 761.png'
+import Zhentryx from '../assets/Zhentryx.png'
+import bgimage from '../assets/bgimage.png'
+import Frame7 from '../assets/Frame 761.png'
 
-const Navbar = () => {
+const LandingPage:React.FC = () => {
   return (
         <section className=' relative w-full h-screen bg-cover bg-center bg-no-repeat flex flex-col '
         style={{backgroundImage: `url(${bgimage})`}} >
@@ -44,4 +44,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default LandingPage
