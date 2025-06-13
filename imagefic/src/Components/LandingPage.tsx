@@ -33,7 +33,7 @@ const LandingPage:React.FC = () => {
                     SIGN UP
                 </button>
                 </div>
-                <div className='hidden md:block'>
+                <div className=' hidden md:hidden lg:block sm:hidden'>
                     <img src={Frame7} alt="" style={{
                         marginLeft:'500px', top:'-400px', position:'relative'
                     }} />
