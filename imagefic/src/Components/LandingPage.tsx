@@ -1,7 +1,14 @@
 import React from 'react'
-import Zhentryx from '../Zhentryx.png'
-import bgimage from '../bgimage.png'
-import Frame7 from '../Frame 761.png'
+import Zhentryx from '../assets/Zhentryx.png'
+import bgimage from '../assets/bgimage.png'
+import Frame7 from '../assets/Frame 761.png'
+import image1 from '../assets/Pictures/image1.png'
+import image2 from '../assets/Pictures/image2.png'
+import image3 from '../assets/Pictures/image3.png'
+import image4 from '../assets/Pictures/image4.png'
+import image5 from '../assets/Pictures/image5.png'
+import image6 from '../assets/Pictures/image6.png'
+import image8 from '../assets/Pictures/image8.png'
 
 const Navbar = () => {
   return (
@@ -39,6 +46,48 @@ const Navbar = () => {
                     }} />
                 </div>
             </div>
+            <section className=' py-16 px-6 mt-20 ' style={{ width:'100%'}}>
+        <div className='text-center mx-auto max-w-7xl border-blue-800' style={{
+            width:'100%'
+        }}>
+            <h2 className='text-2xl font-roboto mb-4 mt-8 font-medium '>
+                Create Your Best Work, with High Quality Images
+            </h2>
+            <p className='mx-auto mb-12 font-roboto'>
+            Unique hand-picked photos, affordable HD and 4K video clips, editable vectors—and much, much more. You'll find it all, right here.
+            </p>
+            
+            <div className='flex flex-row gap-8 justify-center mb-6'>
+                <img src={image1} alt="" className=' h-auto' />
+                <img src={image2} alt="" className=' h-auto' />
+                <img src={image3}  alt="" className=' ' />
+                </div>
+            
+            <div className='flex flex-row gap-8 justify-center mb-6'>
+                <img src={image4} alt="" className=' h-auto' />
+                <img src={image5} alt="" className=' h-auto' />
+                <img src={image6}  alt=""  className=' h-auto'/>
+                </div>
+                
+                <div className='bg-blue-600 flex gap-10 mr-12'>
+                    <img src={image8} alt=""  className='
+                    '/>
+                    <div>
+                    <h4>
+                    See it,Create it,
+                    Try it,Do it
+                    </h4>
+                    <p>
+                        The Best Part of Gallery is discoving images and ideasfrom all over the world
+                    </p>
+                    </div>
+                </div>
+            
+                
+            
+        </div>
+
+      </section>
         </section>
 
   )
