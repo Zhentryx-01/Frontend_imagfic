@@ -18,7 +18,7 @@ const LandingPage:React.FC = () => {
                 <h2 className='text-5xl md:text-6xl font-castoro leading-tight mb-6 '>
                     GALLERY OF 
                 </h2>
-                <h2 className='ext-5xl md:text-6xl font-castoro leading-tight mb-4'>
+                <h2 className='ext-5xl md:text-6xl font-castoro leading-tight mb-4 w-[120%]'>
                 LIFE AND DEATH
                 </h2>
                 <p className='font-roboto leading-relaxed max-w-[800px] mb-4 '>
