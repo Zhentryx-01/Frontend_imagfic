@@ -50,10 +50,10 @@ const Navbar = () => {
         <div className='text-center mx-auto max-w-7xl border-blue-800' style={{
             width:'100%'
         }}>
-            <h2 className='text-2xl font-roboto mb-4 mt-8 font-medium '>
+            <h2 className='text-3xl font-roboto mb-4 mt-8 font-medium '>
                 Create Your Best Work, with High Quality Images
             </h2>
-            <p className='mx-auto mb-12 font-roboto'>
+            <p className='mx-auto mb-12 font-roboto text-lg'>
             Unique hand-picked photos, affordable HD and 4K video clips, editable vectors—and much, much more. You'll find it all, right here.
             </p>
             
@@ -69,20 +69,24 @@ const Navbar = () => {
                 <img src={image6}  alt=""  className=' h-auto'/>
                 </div>
                 
-                <div className='bg-blue-600 flex gap-10 mr-12'>
-                    <img src={image8} alt=""  className='
-                    '/>
-                    <div>
-                    <h4>
-                    See it,Create it,
-                    Try it,Do it
+                <div className='flex gap-12 mr-12 mt-[7rem]'>
+                    <img src={image8} alt=""  className=' -ml-[18rem]  '/>
+                    <div className='mt-[30rem] ' >
+                    <h4 className='font-roboto font-bold text-5xl'>
+                    See it, Create it, <br />
+                    Try it, Do it
                     </h4>
-                    <p>
-                        The Best Part of Gallery is discoving images and ideasfrom all over the world
+                    <p className='font-roboto text-lg mt-3'>
+                        The Best Part of Gallery is <br /> discoving images and ideas <br /> from all over the world
                     </p>
+                    <button className='text-white border-2 rounded w-[11rem] h-12 mt-4 font-roboto font-semibold bg-[#DB02DC] border-none'>
+                    Explore
+                </button>
                     </div>
+                    
                 </div>
             
+                
                 
             
         </div>
